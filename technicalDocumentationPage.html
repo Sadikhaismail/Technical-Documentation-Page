@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Documentation</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            color: #4d4e53;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            color: black;
+        }
+
+        article {
+            margin-left: 25px;
+            font-size: 1.1em;
+        }
+
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 22%;
+            height: 100%;
+            border-right: solid;
+            border-color: #b3b5b6;
+            overflow-y: auto;
+        }
+
+        #navbar>header {
+            position: sticky;
+            top: 0;
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            display: block;
+            border-top: 1px solid;
+            padding: 12px 30px;
+            font-size: 18px;
+        }
+
+        #main-doc {
+            position: absolute;
+            margin-left: 340px;
+            padding: 40px;
+        }
+
+        section>header {
+            font-size: 1.9em;
+        }
+
+        .main-section header {
+            margin-bottom: 20px;
+        }
+
+        .main-section p {
+            margin-bottom: 18px;
+        }
+
+        @media screen and (max-width: 600px) {
+            #navbar {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav id="navbar">
+
+        <header>JS Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Variables">variables</a>
+        <a class="nav-link" href="#Data_ Types">Data Types</a>
+        <a class="nav-link" href="#Loops_in_JS">Loops in JS</a>
+        <a class="nav-link" href="#conditional_statements">Conditional Statements</a>
+         </nav>
+
+    <main id="main-doc">
+        
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>
+                    JavaScript is a light-weight object-oriented programming language that is used by several websites for
+                     scripting the webpages. It is an interpreted, full-fledged programming language. JavaScript enables 
+                     dynamic interactivity on websites when it is applied to an HTML document.
+                </p>
+                <img src="download.jpg" alt="">
+                <p>
+                    JavaScript helps the users to build modern web applications to interact directly without reloading
+                     the page every time. JavaScript is commonly used to dynamically modify HTML and CSS to update a user 
+                     interface by the DOM API. It is mainly used in web applications.
+                </p>
+                <p>
+                    Some of the uses of JavaScript are representing in the following image.
+                </p>
+                <img src="what-are-the-uses-of-javascript.png" alt="">
+        </section>
+      
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <article>
+                <p>
+                    Variables are Containers for Storing Data.
+                </p>
+                <p>
+                    JavaScript Variables can be declared using:- <br>
+                    <img src="1_yivkVkKIrfw-ornRnhpa6A.png" alt="" style="height: 400px; width: 900px; ">
+                </p>
+                <p>
+                Var vs Let vs Const <br>
+                <img src="varvsletvsconst.png" alt="" style="height: 400px;width: 900px;" >
+            </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Data_types">
+            <header>Data types</header>
+            <article>
+                <p>A data type is an attribute associated with a piece of data that tells a computer system how to interpret
+                     its value. Understanding data types ensures that data is collected in the preferred format and the value
+                      of each property is as expected.</p>
+                      <img src="1_l_ZDRMLFUVaIO38p9Qkzvw.jpg" alt="" style="height: 500px; width: 900px;">
+                <p>
+                    A JavaScript variable can hold any type of data.
+                </p>
+                <p>
+                    Data types in JavaScript define the data type that a variable can store. 
+                    JavaScript includes primitive and non-primitive data types.
+                    <img src="1_IaQAFritIFDnO7IN_yEBEA.jpg" alt="">
+                </p>
+            </article>
+        </section>
+
+ <section class="main-section" id="Loops_in_JS">
+            <header>Loops in Js</header>
+            <article>
+                <p>
+                    JavaScript Loops are powerful tools for performing repetitive tasks efficiently.
+                     Loops in JavaScript execute a block of code again and again while the condition is true.
+                </p>
+                <img src="Loop1.png" alt="">
+                <p>
+                   There is two types of Loops:- <br>
+                   <p>
+                   Entry-controlled loop: In the entry-controlled loop, the control conditions evaluate before the
+                    execution of block of the loop. If the specified conditions satisfy, then the body of loop will execute.
+                </p>
+                <p>
+If not satisfied, then the body of loop will not execute. For example, while loop and for loop are entry-controlled loops
+</p>     
+<p>
+    Exit Controlled Loops: In this type of loops the test condition is tested or evaluated at the end of loop body.
+</p>   
+       <img src="Screenshot_20240204_230703_Chrome.jpg" alt="" style="height: 300px; height: 300px;">            
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="main-section" id="Conditional Statements">
+            <header>Conditional Statements</header>
+            <article>
+                <p>
+                    Conditional statements control behavior in JavaScript and determine whether or not pieces of code can run.
+                </p>
+                <img src="download.png" alt="" style="height: 400px; width: 700px;">
+                <p>
+                Use "if" to specify a block of code to be executed, if a specified condition is true.
+                </p>
+                <p>
+                    Use "else" to specify a block of code to be executed, if the  same condition is false.
+                </p>
+                <p>
+                    Use "else if" to specify a new condition to test, if the  first condition is false.
+                </p>
+                   
+            </article>
+        </section>
